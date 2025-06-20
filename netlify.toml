@@ -1,0 +1,12 @@
+[build]
+  base = "Client"
+  publish = "dist"
+  command = "npm run build"
+
+[dev]
+  framework = "vite"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
